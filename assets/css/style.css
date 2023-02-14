@@ -1,0 +1,48 @@
+/* topnav  */
+ a{
+    color: #000;
+}
+
+/* navbar  */
+.navbar a{
+    /* color: #fff; */
+}
+.navbar{
+    background: #002db3 !important;
+}
+.navbar-brand img{
+    width: 13%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.navbar-toggler{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+
+}
+/* info  */
+#info{
+    background: #bfcfff;
+    height: 60vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#info .bg-darks{
+  position: absolute;
+  /* background: rgba(0, 0, 0, .4);  */
+  width: 100%; 
+  height: 100%;
+}
+#info .bg-darks p{
+ width: 40%;
+ margin: 0 auto;
+}
+
+@media only screen and (max-width:520px){
+    #info{
+        height: 60vh;
+    }
+}
