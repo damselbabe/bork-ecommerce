@@ -51,7 +51,7 @@
 }
 #products .card .btn{
     transition: all .6s ease-in-out;
-    transform: translateY(-990%);
+    transform: translateY(-700%);
     z-index: -1;
 }
 #products .card:hover .btn{
@@ -66,7 +66,7 @@
     background-position: center center;
 }
 
-@media only screen and (max-width:520px){
+@media only screen and (max-width:502px){
     #info{
         height: 60vh;
     }
