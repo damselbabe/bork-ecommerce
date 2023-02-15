@@ -41,6 +41,31 @@
  margin: 0 auto;
 }
 
+/* products  */
+/* products  */
+#products .card{
+    height: fit-content;
+}
+#products .card img{
+    height: 30vh !important;
+}
+#products .card .btn{
+    transition: all .6s ease-in-out;
+    transform: translateY(-990%);
+    z-index: -1;
+}
+#products .card:hover .btn{
+    transform: translateY(0%);
+    z-index: 1;
+}
+#contact{
+    background: url(/assets/img/blue\ cloth.jpg);
+    background-repeat: no-repeat;
+    height: fit-content;
+    background-size: cover;
+    background-position: center center;
+}
+
 @media only screen and (max-width:520px){
     #info{
         height: 60vh;
